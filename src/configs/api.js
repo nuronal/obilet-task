@@ -1,0 +1,1 @@
+export const URL = "https://v2-api.obilet.com/api";

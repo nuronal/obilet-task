@@ -1,0 +1,25 @@
+.searchTicketCol{
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.imgRow{
+    height: 58%;
+    width:100% ;
+    background-image: url("../images/obilet.png");
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+    .searchTicketCol{
+        justify-content: center !important;
+    }
+  }
+
+@media only screen and (max-height: 732px) {
+   .imgRow{
+    height: 75%;
+   }
+  }
